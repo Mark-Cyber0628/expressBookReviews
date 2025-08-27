@@ -5,6 +5,7 @@ let users = require("./auth_users.js").users;
 const public_users = express.Router();
 
 
+
 // Register a new user
 public_users.post("/register", (req, res) => {
   const username = req.body.username;
